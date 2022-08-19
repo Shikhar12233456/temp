@@ -17,7 +17,7 @@ List<FlSpot> addData(double X, double Y) {
   double xp = dailysp[dailysp.length - 1] + Y;
   dailysp.add(xp);
   data.add(FlSpot(X, Y));
-
+  //data.sort();
   return data;
 }
 
