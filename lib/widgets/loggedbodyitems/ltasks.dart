@@ -80,7 +80,7 @@ class task_one extends StatelessWidget {
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              first_task(),
+              const first_task(),
               Padding(
                 padding: const EdgeInsets.fromLTRB(0, 0, 14, 0),
                 child: Text(
